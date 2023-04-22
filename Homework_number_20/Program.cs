@@ -25,7 +25,7 @@ namespace Homework_number_20
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                sumColumn *= matrix[i, columnNumber];
+                columnSum *= matrix[i, columnNumber];
             }
 
             Console.WriteLine("Матрица:");
@@ -40,7 +40,7 @@ namespace Homework_number_20
             }
 
             Console.WriteLine("Сумма элементов второй строки: " + rowSum);
-            Console.WriteLine("Произведение элементов первого столбца: " + sumColumn);
+            Console.WriteLine("Произведение элементов первого столбца: " + columnSum);
 
             Console.ReadKey();
         }
