@@ -14,9 +14,9 @@ namespace Homework_number_20
                                         { 4, 5, 6 },
                                         { 7, 8, 9 }};
             int rowNumber = 1;
+            int columnNumber = 0;
             int rowSum = 0;
             int sumColumn = 1;
-            int numberСolumn = 0;
 
             for (int i = 0; i < matrix.GetLength(1); i++)
             {
@@ -25,7 +25,7 @@ namespace Homework_number_20
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                sumColumn *= matrix[i, numberСolumn];
+                sumColumn *= matrix[i, columnNumber];
             }
 
             Console.WriteLine("Матрица:");
