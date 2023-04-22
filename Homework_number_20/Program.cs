@@ -16,7 +16,7 @@ namespace Homework_number_20
             int rowNumber = 1;
             int columnNumber = 0;
             int rowSum = 0;
-            int sumColumn = 1;
+            int columnSum = 1;
 
             for (int i = 0; i < matrix.GetLength(1); i++)
             {
